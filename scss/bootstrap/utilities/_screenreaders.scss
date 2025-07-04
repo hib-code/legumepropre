@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //
 // Screenreaders
 //
@@ -9,3 +10,16 @@
 .sr-only-focusable {
   @include sr-only-focusable();
 }
+=======
+//
+// Screenreaders
+//
+
+.sr-only {
+  @include sr-only();
+}
+
+.sr-only-focusable {
+  @include sr-only-focusable();
+}
+>>>>>>> 83547d58784595cf0f68afbc06bb908cac0ba61a

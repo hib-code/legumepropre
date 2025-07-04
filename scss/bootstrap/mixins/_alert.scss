@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @mixin alert-variant($background, $border, $color) {
   color: $color;
   @include gradient-bg($background);
@@ -11,3 +12,18 @@
     color: darken($color, 10%);
   }
 }
+=======
+@mixin alert-variant($background, $border, $color) {
+  color: $color;
+  @include gradient-bg($background);
+  border-color: $border;
+
+  hr {
+    border-top-color: darken($border, 5%);
+  }
+
+  .alert-link {
+    color: darken($color, 10%);
+  }
+}
+>>>>>>> 83547d58784595cf0f68afbc06bb908cac0ba61a
